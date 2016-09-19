@@ -15,29 +15,29 @@ return [
         'last_updated' => 'Last updated :timestamp',
         'status'       => [
             1 => 'Λειτουργικό',
-            2 => 'Προβλήματα επιδόσης',
+            2 => 'Προβλήματα Επιδόσης',
             3 => 'Μερική Διακοπή',
             4 => 'Σημαντική Διακοπή',
         ],
         'group' => [
-            'other' => 'Other Components',
+            'other' => 'Άλλα Στοιχεία',
         ],
     ],
 
     // Incidents
     'incidents' => [
-        'none'          => 'Δεν υπάρχουν περιστατικά',
-        'past'          => 'Προηγούμενα περιστατικά',
+        'none'          => 'Δεν υπάρχουν Περιστατικά',
+        'past'          => 'Προηγούμενα Περιστατικά',
         'previous_week' => 'Προηγούμενη εβδομάδα',
         'next_week'     => 'Επόμενη εβδομάδα',
         'scheduled'     => 'Προγραμματισμένη Συντήρηση',
-        'scheduled_at'  => ', προγραμματισμένη :timestamp',
+        'scheduled_at'  => ', Προγραμματισμένη για :timestamp',
         'status'        => [
             0 => 'Προγραμματίστηκε', // TODO: Hopefully remove this.
             1 => 'Διερευνάται',
             2 => 'Προσδιορίστηκε',
-            3 => 'Παρακολούθηση',
-            4 => 'Διορθωμένο',
+            3 => 'Παρακολούθείται',
+            4 => 'Διορθώθηκε',
         ],
     ],
 
@@ -68,34 +68,34 @@ return [
         'subscribe' => 'Εγγραφείτε για να λάβετε τις τελευταίες ενημερώσεις',
         'button'    => 'Εγγραφή',
         'manage'    => [
-            'no_subscriptions' => 'You\'re currently subscribed to all updates.',
-            'my_subscriptions' => 'You\'re currently subscribed to the following updates.',
+            'no_subscriptions' => 'Έχετε εγγραφεί σε όλες τις ενημερώσεις.',
+            'my_subscriptions' => 'Έχετε εγγραφεί στις παρακάτω ενημερώσεις:',
         ],
         'email' => [
             'subscribe'          => 'Εγγραφή στις ενημερώσεις μέσω email.',
-            'subscribed'         => 'Έχετε εγγραφεί στις ενημερώσεις μέσω email, παρακαλώ ελέγξτε το email σας για να επιβεβαιώσετε την εγγραφή σας.',
+            'subscribed'         => 'Έχετε εγγραφεί στις ενημερώσεις μέσω email. Παρακαλώ ελέγξτε το email σας για να επιβεβαιώσετε την εγγραφή σας.',
             'verified'           => 'Η εγγραφή σας έχει επιβεβαιωθεί. Ευχαριστούμε!',
-            'manage'             => 'Manage your subscription',
+            'manage'             => 'Διαχειριστείτε την εγγραφή σας.',
             'unsubscribe'        => 'Διαγραφή από τις ενημερώσεις μέσω email.',
             'unsubscribed'       => 'Η εγγραφή σας έχει ακυρωθεί.',
             'failure'            => 'Προέκυψε ένα σφάλμα σχετικά με την εγγραφή.',
             'already-subscribed' => 'Δεν ήταν δυνατή η εγγραφή του :email επειδή είναι ήδη εγγεγραμμένο.',
             'verify'             => [
-                'text'   => "Please confirm your email subscription to :app_name status updates.\n:link",
-                'html'   => '<p>Please confirm your email subscription to :app_name status updates.</p>',
-                'button' => 'Confirm Subscription',
+                'text'   => "Παρακαλούμε επιβεβαιώστε την εγγραφή σας για τις ενημερώσεις του :app_name.\n:link",
+                'html'   => '<p>Παρακαλούμε επιβεβαιώστε την εγγραφή σας για τις ενημερώσεις του :app_name.</p>',
+                'button' => 'Επιβεβαίωση Εγγραφής',
             ],
             'maintenance' => [
-                'subject' => '[Maintenance Scheduled] :name',
+                'subject' => '[Προγραμματισμένη Συντήρηση] :name',
             ],
             'incident' => [
-                'subject' => '[New Incident] :status: :name',
+                'subject' => '[Νέο Περιστατικό] :status: :name',
             ],
             'component' => [
-                'subject'       => 'Ενημέρωση κατάστασης στοιχείου',
-                'text'          => 'Η κατάσταση του στοιχείου :component_name έχει ενημερωθεί. Το στοιχείο είναι πλέον :component_human_status.\nΕυχαριστούμε, :app_name',
-                'html'          => '<p>Η κατάσταση του στοιχείου :component_name έχει ενημερωθεί. Το στοιχείο είναι πλέον :component_human_status.</p><p>Ευχαριστούμε, :app_name</p>',
-                'tooltip-title' => 'Εγγραφείτε στις ενημερώσεις σχετικά με :component_name.',
+                'subject'       => 'Ενημέρωση κατάστασης Στοιχείου',
+                'text'          => 'Η κατάσταση του Στοιχείου :component_name έχει ενημερωθεί. Το Στοιχείο είναι πλέον :component_human_status.\nΕυχαριστούμε, :app_name',
+                'html'          => '<p>Η κατάσταση του Στοιχείου :component_name έχει ενημερωθεί. Το Στοιχείο είναι πλέον :component_human_status.</p><p>Ευχαριστούμε, :app_name</p>',
+                'tooltip-title' => 'Εγγραφείτε στις ενημερώσεις για τo Στοιχείο :component_name.',
             ],
         ],
     ],
@@ -111,30 +111,30 @@ return [
 
     'signup' => [
         'title'    => 'Εγγραφή',
-        'username' => 'Username',
-        'email'    => 'E-mail',
+        'username' => 'Όνομα Χρήστη',
+        'email'    => 'Email',
         'password' => 'Κωδικός πρόσβασης',
         'success'  => 'Ο λογαριασμός σας έχει δημιουργηθεί.',
-        'failure'  => 'Προέκυψε κάποιο σφάλμα σχετικά με την εγγραφή.',
+        'failure'  => 'Προέκυψε κάποιο σφάλμα κατά την εγγραφή.',
     ],
 
     'system' => [
-        'update' => 'Μια ενημερωμένη έκδοση του Cache είναι διαθέσιμη. Δείτε πως μπορείτε να αναβαθμίσετε <a href="https://docs.cachethq.io/docs/updating-cachet">εδώ</a>!',
+        'update' => 'Μια ενημερωμένη έκδοση του Cachet είναι διαθέσιμη. Δείτε πως μπορείτε να αναβαθμίσετε την εφαρμογή <a href="https://docs.cachethq.io/docs/updating-cachet">εδώ</a>!',
     ],
 
     // Modal
     'modal' => [
         'close'     => 'Κλείσιμο',
         'subscribe' => [
-            'title'  => 'Εγγραφή στις ενημερώσεις στοιχείων',
-            'body'   => 'Συμπληρώστε το email σας για να εγγραφείτε στις ενημερώσεις αυτού του στοιχείου. Αν είστε ήδη εγγεγραμένος, τότε λαμβάνεται ήδη emails για αυτό το στοιχείο.',
+            'title'  => 'Εγγραφή στις ενημερώσεις Στοιχείων',
+            'body'   => 'Συμπληρώστε το email σας για να εγγραφείτε στις ενημερώσεις αυτού του Στοιχείου. Αν είστε ήδη εγγεγραμένος, τότε λαμβάνεται ήδη emails για αυτό το Στοιχείο.',
             'button' => 'Εγγραφή',
         ],
     ],
 
     // Other
-    'home'            => 'Home',
-    'description'     => 'Stay up to date with the latest service updates from :app.',
+    'home'            => 'Αρχική',
+    'description'     => 'Μείνετε ενημερωμένοι σχετικά με τις τελευταίες υπηρεσίες της εφαρμογής :app.',
     'powered_by'      => 'Powered by <a href="https://cachethq.io" class="links">Cachet</a>.',
     'about_this_site' => 'Σχετικά με αυτόν τον ιστότοπο',
     'rss-feed'        => 'RSS',

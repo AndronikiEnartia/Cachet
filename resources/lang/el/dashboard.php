@@ -15,43 +15,43 @@ return [
 
     // Incidents
     'incidents' => [
-        'title'                    => 'Περιστατικά &amp; Πρόγραμμα',
+        'title'                    => 'Περιστατικά και Πρόγραμμα',
         'incidents'                => 'Περιστατικά',
-        'logged'                   => '{0} Δεν υπάρχουν περιστατικά, καλλή δουλειά.|Έχετε καταγράψει ένα περιστατικό.|Έχετε ανάφερει <strong>:count</strong> περιστατικά.',
-        'incident-create-template' => 'Δημιουργία προτύπου',
+        'logged'                   => '{0} Δεν υπάρχουν Περιστατικά.|Έχετε καταγράψει ένα Περιστατικό.|Έχετε ανάφερει <strong>:count</strong> Περιστατικά.',
+        'incident-create-template' => 'Δημιουργία Προτύπου',
         'incident-templates'       => 'Πρότυπα Περιστατικών',
         'add'                      => [
-            'title'   => 'Αναφορά περιστατικού',
-            'success' => 'Incident added.',
-            'failure' => 'There was an error adding the incident, please try again.',
+            'title'   => 'Αναφορά Περιστατικού',
+            'success' => 'Το Περιστατικό προστέθηκε.',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την προσθήκη του Περιστατικού. Παρακαλούμε δοκιμάστε ξανά.',
         ],
         'edit' => [
-            'title'   => 'Επεξεργασία περιστατικού',
-            'success' => 'Επεξεργασία περιστατικού επιτυχής.',
-            'failure' => 'There was an error editing the incident, please try again.',
+            'title'   => 'Επεξεργασία Περιστατικού',
+            'success' => 'Επιτυχής επεξεργασία Περιστατικού.',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την επεξεργασία του Περιστατικού. Παρακαλούμε δοκιμάστε ξανά.',
         ],
         'delete' => [
-            'success' => 'Αυτό το περιστατικό έχει διαγραφεί και δε θα εμφανιστή στη σελίδα κατάστασης.',
-            'failure' => 'The incident could not be deleted, please try again.',
+            'success' => 'Αυτό το Περιστατικό έχει διαγραφεί και δε θα εμφανιστεί στη Σελίδα Κατάστασης.',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την διαγραφή του Περιστατικού. Παρακαλούμε δοκιμάστε ξανά.',
         ],
 
         // Incident templates
         'templates' => [
             'title' => 'Πρότυπα Περιστατικών',
             'add'   => [
-                'title'   => 'Δημιουργήστε ένα πρότυπο περιστατικό',
-                'message' => 'Σας προτείνουμε να προσθέσετε ένα πρότυπο περιστατικό.',
-                'success' => 'Your new incident template has been created.',
-                'failure' => 'Something went wrong with the incident template.',
+                'title'   => 'Δημιουργήστε ένα Πρότυπο Περιστατικό',
+                'message' => 'Σας προτείνουμε να προσθέσετε ένα Πρότυπο Περιστατικό.',
+                'success' => 'Το Πρότυπο Περιστατικό δημιουργήθηκε με επιτυχία.',
+                'failure' => 'Υπήρξε ένα πρόβλημα κατά την προσθήκη του Πρότυπου Περιστατικού.',
             ],
             'edit' => [
-                'title'   => 'Επεξεργασία προτύπου',
-                'success' => 'The incident template has been updated.',
-                'failure' => 'Something went wrong updating the incident template',
+                'title'   => 'Επεξεργασία Προτύπου',
+                'success' => 'Το Πρότυπο Περιστατικό ενημερώθηκε με επιτυχία.',
+                'failure' => 'Υπήρξε ένα πρόβλημα κατά την ενημέρωση του Πρότυπου Περιστατικού.',
             ],
             'delete' => [
-                'success' => 'Το πρότυπο περιστατικό έχει διαγραφεί.',
-                'failure' => 'The incident template could not be deleted, please try again.',
+                'success' => 'Το Πρότυπο Περιστατικό έχει διαγραφεί.',
+                'failure' => 'Υπήρξε ένα πρόβλημα κατά την διαγραφή του Πρότυπου Περιστατικού. Παρακαλούμε δοκιμάστε ξανά.',
             ],
         ],
     ],
@@ -59,130 +59,130 @@ return [
     // Incident Maintenance
     'schedule' => [
         'schedule'     => 'Προγραμματισμένη Συντήρηση',
-        'logged'       => '{0} There are no schedules, good work.|You have logged one schedule.|You have reported <strong>:count</strong> schedules.',
+        'logged'       => '{0} Δεν υπάρχουν Προγραμματισμένες Συντηρήσεις. |Έχετε καταχωρήσει μια Προγραμματισμένη Συντήρηση.|Έχετε καταχωρήσει <strong>:count</strong> Προγραμματισμένες Συντηρήσεις.',
         'scheduled_at' => 'Προγραμματισμένη στις :timestamp',
         'add'          => [
-            'title'   => 'Add Scheduled Maintenance',
-            'success' => 'Schedule added.',
-            'failure' => 'Something went wrong adding the schedule, please try again.',
+            'title'   => 'Προσθήκη Προγραμματισμένης Συντήρησης',
+            'success' => 'Προστέθηκε.',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την προσθήκη της Προγραμματισμένης Συντήρησης. Παρακαλούμε δοκιμάστε ξανά.',
         ],
         'edit' => [
-            'title'   => 'Edit Scheduled Maintenance',
-            'success' => 'Schedule has been updated!',
-            'failure' => 'Something went wrong editing the schedule, please try again.',
+            'title'   => 'Επεξεργασία Προγραμματισμένης Συντήρησης',
+            'success' => 'Η Προγραμματισμένη Συντήρηση ενημερώθηκε!',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την επεξεργασία της Προγραμματισμένης Συντήρησης. Παρακαλούμε δοκιμάστε ξανά.',
         ],
         'delete' => [
-            'success' => 'The scheduled maintenance has been deleted and will not show on your status page.',
-            'failure' => 'The scheduled maintenance could not be deleted, please try again.',
+            'success' => 'Η Προγραμματισμένη Συντήρηση έχει διαγραφεί και δε θα εμφανιστεί στη Σελίδα Κατάστασης.',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την διαγραφή της Προγραμματισμένης Συντήρησης. Παρακαλούμε δοκιμάστε ξανά.',
         ],
     ],
 
     // Components
     'components' => [
-        'components'         => 'Components',
-        'component_statuses' => 'Component Statuses',
-        'listed_group'       => 'Grouped under :name',
+        'components'         => 'Στοιχεία',
+        'component_statuses' => 'Κατάσταση Στοιχείων',
+        'listed_group'       => 'Ομάδα Στοιχείων :name',
         'add'                => [
-            'title'   => 'Add a component',
-            'message' => 'You should add a component.',
-            'success' => 'Component created.',
-            'failure' => 'Something went wrong with the component, please try again.',
+            'title'   => 'Προσθήκη Στοιχείου',
+            'message' => 'Πρέπει να προσθέσετε ένα Στοιχείο.',
+            'success' => 'Το Στοιχείο δημιουργήθηκε.',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την προσθήκη του Στοιχείου. Παρακαλούμε δοκιμάστε ξανά.',
         ],
         'edit' => [
-            'title'   => 'Edit a component',
-            'success' => 'Component updated.',
-            'failure' => 'Something went wrong with the component, please try again.',
+            'title'   => 'Επεξεργασία Στοιχείου',
+            'success' => 'Το Στοιχείο ενημερώθηκε.',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την επεξεργασία του Στοιχείου. Παρακαλούμε δοκιμάστε ξανά.',
         ],
         'delete' => [
-            'success' => 'The component has been deleted!',
-            'failure' => 'The component could not be deleted, please try again.',
+            'success' => 'Το Στοιχείο διαγράφηκε!',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την διαγραφή του Στοιχείου. Παρακαλούμε δοκιμάστε ξανά.',
         ],
 
         // Component groups
         'groups' => [
-            'groups'        => 'Component group|Component groups',
-            'no_components' => 'You should add a component group.',
+            'groups'        => 'Ομάδα Στοιχείων|Ομάδες Στοιχείων',
+            'no_components' => 'Πρέπει να προσθέσετε μια Ομάδα Στοιχείων.',
             'add'           => [
-                'title'   => 'Add a component group',
-                'success' => 'Component group added.',
-                'failure' => 'Something went wrong with the component group, please try again.',
+                'title'   => 'Προσθήκη Ομάδας Στοιχείων',
+                'success' => 'Η Ομάδα Στοιχείων προστέθηκε.',
+                'failure' => 'Υπήρξε ένα πρόβλημα κατά την προσθήκη της Ομάδας Στοιχείων. Παρακαλούμε δοκιμάστε ξανά.',
             ],
             'edit' => [
-                'title'   => 'Edit a component group',
-                'success' => 'Component group updated.',
-                'failure' => 'Something went wrong with the component group, please try again.',
+                'title'   => 'Επεξεργασία Ομάδας Στοιχείων',
+                'success' => 'Η Ομάδα Στοιχείων ενημερώθηκε.',
+                'failure' => 'Υπήρξε ένα πρόβλημα κατά την επεξεργασία της Ομάδας Στοιχείων. Παρακαλούμε δοκιμάστε ξανά.',
             ],
             'delete' => [
-                'success' => 'Component group has been deleted!',
-                'failure' => 'The component group could not be deleted, please try again.',
+                'success' => 'Η Ομάδα Στοιχείων διαγράφηκε!',
+                'failure' => 'Υπήρξε ένα πρόβλημα κατά την διαγραφή της Ομάδας Στοιχείων. Παρακαλούμε δοκιμάστε ξανά.',
             ],
         ],
     ],
 
     // Metrics
     'metrics' => [
-        'metrics' => 'Metrics',
+        'metrics' => 'Μετρήσεις',
         'add'     => [
-            'title'   => 'Create a metric',
-            'message' => 'You should add a metric.',
-            'success' => 'Metric created.',
-            'failure' => 'Something went wrong with the metric, please try again.',
+            'title'   => 'Δημιουργία Μέτρησης',
+            'message' => 'Πρέπει να προσθέσετε μια Μέτρηση.',
+            'success' => 'Η Μέτρηση προστέθηκε.',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την προσθήκη της Μέτρησης. Παρακαλούμε δοκιμάστε ξανά.',
         ],
         'edit' => [
-            'title'   => 'Edit a metric',
-            'success' => 'Metric updated.',
-            'failure' => 'Something went wrong with the metric, please try again.',
+            'title'   => 'Επεξεργασίας Μέτρησης',
+            'success' => 'Η Μέτρηση ενημερώθηκε.',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την επεξεργασία της Μέτρησης. Παρακαλούμε δοκιμάστε ξανά.',
         ],
         'delete' => [
-            'success' => 'The metric has been deleted and will no longer display on your status page.',
-            'failure' => 'The metric could not be deleted, please try again.',
+            'success' => 'Η Μέτρηση έχει διαγραφεί και δε θα εμφανιστεί στη Σελίδα Κατάστασης.',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την διαγραφή της Μέτρησης. Παρακαλούμε δοκιμάστε ξανά.',
         ],
     ],
     // Subscribers
     'subscribers' => [
-        'subscribers'      => 'Subscribers',
-        'description'      => 'Subscribers will receive email updates when incidents are created or components are updated.',
-        'verified'         => 'Verified',
-        'not_verified'     => 'Not verified',
-        'subscriber'       => ':email, subscribed :date',
-        'no_subscriptions' => 'Subscribed to all updates',
+        'subscribers'      => 'Συνδρομητές',
+        'description'      => 'Οι Συνδρομητές θα λαμβάνουν ενημερώσεις μέσω email όταν δημιουργούνται Περιστατικά ή ενημερώνονται τα Στοιχεία.',
+        'verified'         => 'Επαληθεύτηκε',
+        'not_verified'     => 'Δεν έχει επαληθευτεί',
+        'subscriber'       => ':email, εγγράφηκε :date',
+        'no_subscriptions' => 'Εγγράφηκε σε όλες τις ενημερώσεις',
         'add'              => [
-            'title'   => 'Add a new subscriber',
-            'success' => 'Subscriber has been added!',
-            'failure' => 'Something went wrong adding the subscriber, please try again.',
-            'help'    => 'Enter each subscriber on a new line.',
+            'title'   => 'Προσθήκη νέου Συνδρομητή',
+            'success' => 'Ο Συνδρομητής προστέθηκε!',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την προσθήκη του Συνδρομητή. Παρακαλούμε δοκιμάστε ξανά.',
+            'help'    => 'Εισάγετε κάθε Συνδρομητή σε νέα γραμμή.',
         ],
         'edit' => [
-            'title'   => 'Update subscriber',
-            'success' => 'Subscriber has been updated!',
-            'failure' => 'Something went wrong editing the subscriber, please try again.',
+            'title'   => 'Ενημέρωση Συνδρομητή',
+            'success' => 'Ο Συνδρομητής ενημερώθηκε!',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την επεξεργασία του Συνδρομητή. Παρακαλούμε δοκιμάστε ξανά.',
         ],
     ],
 
     // Team
     'team' => [
         'team'        => 'Ομάδα',
-        'member'      => 'Member',
-        'profile'     => 'Profile',
-        'description' => 'Team Members will be able to add, modify &amp; edit components and incidents.',
+        'member'      => 'Μέλος',
+        'profile'     => 'Προφίλ',
+        'description' => 'Τα μέλη της Ομάδας έχουν τη δυνατότητα να προσθέσουν, να τροποποιήσουν και να επεξεργαστούν Στοιχεία και Περιστατικά.',
         'add'         => [
-            'title'   => 'Add a new team member',
-            'success' => 'Team member added.',
-            'failure' => 'The team member could not be added, please try again.',
+            'title'   => 'Προσθήκη νέου μέλους',
+            'success' => 'Το νέο μέλος προστέθηκε.',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την προσθήκη του νέου μέλους. Παρακαλούμε δοκιμάστε ξανά.',
         ],
         'edit' => [
-            'title'   => 'Update profile',
-            'success' => 'Profile updated.',
-            'failure' => 'Something went wrong updating the profile, please try again.',
+            'title'   => 'Ενημέρωση προφίλ',
+            'success' => 'Το προφίλ ενημερώθηκε.',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την ενημέρωση του προφίλ. Παρακαλούμε δοκιμάστε ξανά.',
         ],
         'delete' => [
-            'success' => 'Team member has been deleted and will no longer have access to the dashboard!',
-            'failure' => 'The team member could not be added, please try again.',
+            'success' => 'Το μέλος έχει διαγραφεί και δεν θα έχει πλέον πρόσβαση στον Πίνακα Ελέγχου!',
+            'failure' => 'Υπήρξε ένα πρόβλημα κατά την διαγραφή του μέλους. Παρακαλούμε δοκιμάστε ξανά.',
         ],
         'invite' => [
-            'title'   => 'Invite a new team member',
-            'success' => 'An invite has been sent',
-            'failure' => 'The invite could not be sent, please try again.',
+            'title'   => 'Προσκαλέστε ένα νέο μέλος',
+            'success' => 'Η πρόσκληση έχει σταλεί',
+            'failure' => 'Η πρόσκληση δεν έχει σταλεί. Παρακαλούμε δοκιμάστε ξανά.',
         ],
     ],
 
@@ -190,24 +190,24 @@ return [
     'settings' => [
         'settings'  => 'Ρυθμίσεις',
         'app-setup' => [
-            'app-setup'   => 'Application Setup',
-            'images-only' => 'Only images may be uploaded.',
-            'too-big'     => 'The file you uploaded is too big. Upload an image smaller than :size',
+            'app-setup'   => 'Ρυθμίσεις Εφαρμογής',
+            'images-only' => 'Μόνο εικόνες μπορούν να προστεθούν.',
+            'too-big'     => 'Το αρχείο που ανεβάσατε είναι πολύ μεγάλο. Παρακαλούμε ανεβάστε μια εικόνα μικρότερη από :size',
         ],
         'analytics' => [
-            'analytics' => 'Analytics',
+            'analytics' => 'Στατιστικά',
         ],
         'localization' => [
-            'localization' => 'Localization',
+            'localization' => 'Τοπικότητα',
         ],
         'customization' => [
-            'customization' => 'Customization',
-            'header'        => 'Custom Header HTML',
-            'footer'        => 'Custom Footer HTML',
+            'customization' => 'Προσαρμογή',
+            'header'        => 'Προσαρμοσμένο Header HTML',
+            'footer'        => 'Προσαρμοσμένο Footer HTML',
         ],
         'security' => [
-            'security'   => 'Security',
-            'two-factor' => 'Users without two-factor authentication',
+            'security'   => 'Ασφάλεια',
+            'two-factor' => 'Μέλη χωρίς two-factor authentication',
         ],
         'stylesheet' => [
             'stylesheet' => 'Stylesheet',
@@ -216,25 +216,25 @@ return [
             'theme' => 'Θέμα',
         ],
         'edit' => [
-            'success' => 'Settings saved.',
-            'failure' => 'Settings could not be saved.',
+            'success' => 'Οι ρυθμίσεις αποθηκεύτηκαν.',
+            'failure' => 'Οι ρυθμίσεις δεν αποθηκεύτηκαν.',
         ],
         'credits' => [
             'credits'       => 'Credits',
-            'contributors'  => 'Contributors',
-            'license'       => 'Cachet is a BSD-3-licensed open source project, released by <a href="https://alt-three.com/?utm_source=cachet&utm_medium=credits&utm_campaign=Cachet%20Credit%20Dashboard" target="_blank">Alt Three Services Limited</a>.',
-            'backers-title' => 'Backers & Sponsors',
-            'backers'       => 'If you\'d like to support future development, check out the <a href="https://patreon.com/jbrooksuk" target="_blank">Cachet Patreon</a> campaign.',
-            'thank-you'     => 'Thank you to each and every one of the :count contributors.',
+            'contributors'  => 'Συνεισφέροντες',
+            'license'       => 'Το Cachet είναι ένα BSD-3-licensed open source project, που έχει εκδοθεί από την <a href="https://alt-three.com/?utm_source=cachet&utm_medium=credits&utm_campaign=Cachet%20Credit%20Dashboard" target="_blank">Alt Three Services Limited</a>.',
+            'backers-title' => 'Υποστηρικτές και Χορηγοί',
+            'backers'       => 'Αν επιθυμείτε να υποστηρίξετε τη μελλοντική ανάπτυξη της εφαρμογής, δείτε την σχετική καμπάνια στο <a href="https://patreon.com/jbrooksuk" target="_blank">Cachet Patreon</a>.',
+            'thank-you'     => 'Ευχαριστούμε κάθε έναν από τους :count συνεισφέροντες.',
         ],
     ],
 
     // Login
     'login' => [
         'login'      => 'Σύνδεση',
-        'logged_in'  => 'You\'re logged in.',
-        'welcome'    => 'Welcome Back!',
-        'two-factor' => 'Please enter your token.',
+        'logged_in'  => 'Έχετε συνδεθεί.',
+        'welcome'    => 'Καλωσήρθατε!',
+        'two-factor' => 'Παρακαλούμε εισάγετε τον κωδικό σας.',
     ],
 
     // Sidebar footer
@@ -245,28 +245,28 @@ return [
     // Notifications
     'notifications' => [
         'notifications' => 'Ειδοποιήσεις',
-        'awesome'       => 'Φανταστικό.',
-        'whoops'        => 'Ούπς.',
+        'awesome'       => 'Τέλεια!',
+        'whoops'        => 'Ουπς.',
     ],
 
     // Widgets
     'widgets' => [
-        'support'          => 'Support Cachet',
-        'support_subtitle' => 'Check out our <strong><a href="https://patreon.com/jbrooksuk" target="_blank">Patreon</a></strong> page!',
-        'news'             => 'Latest News',
-        'news_subtitle'    => 'Get the latest updates',
+        'support'          => 'Υποστηρίξτε το Cachet',
+        'support_subtitle' => 'Δείτε τη σελίδα μας στο <strong><a href="https://patreon.com/jbrooksuk" target="_blank">Patreon</a></strong>!',
+        'news'             => 'Τελευταία Νέα',
+        'news_subtitle'    => 'Λάβετε τις τελευταίες ενημερώσεις',
     ],
 
     // Welcome modal
     'welcome' => [
-        'welcome' => 'Welcome to your new status page!',
+        'welcome' => 'Καλωσήρθατε στη Σελίδα Κατάστασης!',
         'message' => 'Η σελίδα κατάστασής σας είναι σχεδόν έτοιμη! Ίσως να θέλετε να κάνετε κάποιες παραμετροποιήσεις',
-        'close'   => 'Take me straight to my dashboard',
+        'close'   => 'Μετάβαση στον Πίνακα Ελέγχου',
         'steps'   => [
-            'component'  => 'Δημιουργία συστατικών',
-            'incident'   => 'Δημιουργία περιστατικών',
+            'component'  => 'Δημιουργία Στοιχείων',
+            'incident'   => 'Δημιουργία Περιστατικών',
             'customize'  => 'Προσαρμογή',
-            'team'       => 'Προσθήκη χρηστών',
+            'team'       => 'Προσθήκη μελών',
             'api'        => 'Δημιουργία κλειδιού API',
             'two-factor' => 'Two Factor Authentication',
         ],
