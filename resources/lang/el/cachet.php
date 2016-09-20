@@ -66,12 +66,12 @@ return [
     // Subscriber
     'subscriber' => [
         'subscribe' => 'Εγγραφείτε για να λάβετε τις τελευταίες ενημερώσεις',
-        'subscribe_myTophost' => 'Subscribe to Status Page',
-        'subscribe_myTophost_info'=> 'Subscribe to the updates that concern your hosting plan, by following these steps:',
-        'subscribe_myTophost_txt1'=> 'Log in to your myTophost Panel',
-        'subscribe_myTophost_txt2'=> 'Go to Account Data >> Warning Emails.',
-        'subscribe_myTophost_txt3'=> 'Check the box "I want to receive notifications about the servers\' status on the mail [your email]".',
-        'subscribe_myTophost_btn'=> 'Log in to myTophost Panel',
+        'subscribe_myTophost' => 'Εγγραφή στην Status Page',
+        'subscribe_myTophost_info'=> 'Για να εγγραφείτε στις ενημερώσεις που αφορούν στο πακέτο φιλοξενίας σας, θα χρειαστεί να ακολουθήσετε τα παρακάτω βήματα:',
+        'subscribe_myTophost_txt1'=> 'Συνδεθείτε στο λογαριασμό σας στο myTophost Panel.',
+        'subscribe_myTophost_txt2'=> 'Μεταβείτε από το μενού στην καρτέλα Account Data >> Email Προειδοποίησης.',
+        'subscribe_myTophost_txt3'=> 'Τσεκάρετε το κουτάκι "Επιθυμώ να ενημερώνομαι για ανακοινώσεις σχετικά με την κατάσταση των servers που ανεβαίνουν στη Status Page".',
+        'subscribe_myTophost_btn'=> 'Είσοδος στο myTophost Panel',
         'button'    => 'Εγγραφή',
         'manage'    => [
             'no_subscriptions' => 'You\'re currently subscribed to all updates.',
