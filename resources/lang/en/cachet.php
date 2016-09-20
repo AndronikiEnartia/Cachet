@@ -66,6 +66,12 @@ return [
     // Subscriber
     'subscriber' => [
         'subscribe' => 'Subscribe to get the most recent updates',
+        'subscribe_myTophost' => 'Subscribe to Status Page',
+        'subscribe_myTophost_info'=> 'Subscribe to the updates that concern your hosting plan, by following these steps:',
+        'subscribe_myTophost_txt1'=> 'Log in to your myTophost Panel',
+        'subscribe_myTophost_txt2'=> 'Go to Account Data >> Warning Emails.',
+        'subscribe_myTophost_txt3'=> 'Check the box "I want to receive notifications about the servers\' status on the mail [your email]".',
+        'subscribe_myTophost_btn'=> 'Log in to myTophost Panel',
         'button'    => 'Subscribe',
         'manage'    => [
             'no_subscriptions' => 'You\'re currently subscribed to all updates.',
