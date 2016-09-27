@@ -46,7 +46,8 @@
                         @if(subscribers_enabled())
                         <div class="checkbox">
                             <label>
-                                <input type="checkbox" name="notify" value="1" checked="{{ Binput::old('incident.message', 'checked') }}">
+                                {{--<input type="checkbox" name="notify" value="1" checked="{{ Binput::old('incident.message', 'checked') }}">--}}
+                                <input type="checkbox" name="notify">
                                 {{ trans('forms.incidents.notify_subscribers') }}
                             </label>
                         </div>
