@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d11a46f5-51d5-41ac-ad88-9a897f18bf68" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Bus/Commands/Incident/ReportMaintenanceCommand.php" afterPath="$PROJECT_DIR$/app/Bus/Commands/Incident/ReportMaintenanceCommand.php" />
-      <change beforePath="$PROJECT_DIR$/app/Bus/Handlers/Commands/Incident/ReportMaintenanceCommandHandler.php" afterPath="$PROJECT_DIR$/app/Bus/Handlers/Commands/Incident/ReportMaintenanceCommandHandler.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/ScheduleController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/ScheduleController.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/schedule/add.blade.php" afterPath="$PROJECT_DIR$/resources/views/dashboard/schedule/add.blade.php" />
+      <change beforePath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php" afterPath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,16 +73,6 @@
         </entry>
       </file>
       <file leaf-file-name="cachet.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/lang/en/cachet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cachet.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/lang/en-UD/cachet.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -137,7 +124,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/dashboard/schedule/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="542">
@@ -180,6 +167,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SendMaintenanceEmailNotificationHandler.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -195,6 +192,7 @@
         <option value="$PROJECT_DIR$/app/Bus/Handlers/Commands/Incident/ReportMaintenanceCommandHandler.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Dashboard/ScheduleController.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/schedule/add.blade.php" />
+        <option value="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php" />
       </list>
     </option>
   </component>
@@ -242,6 +240,36 @@
               <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bus" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bus" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bus" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Events" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bus" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Events" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Incident" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
@@ -312,7 +340,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3602000" />
+    <option name="totallyTimeSpent" value="3746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -673,6 +701,14 @@
             <marker date="1524478985765" expanded="true" signature="4947:4982" ph="..." />
             <marker date="1524478985765" expanded="true" signature="4988:5011" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
