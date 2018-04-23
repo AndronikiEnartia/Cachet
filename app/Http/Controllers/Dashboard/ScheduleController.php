@@ -22,6 +22,8 @@ use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\MessageBag;
 use Jenssegers\Date\Date;
+use CachetHQ\Cachet\Models\Component;
+use CachetHQ\Cachet\Models\ComponentGroup;
 
 class ScheduleController extends Controller
 {
@@ -83,6 +85,8 @@ class ScheduleController extends Controller
 
         return View::make('dashboard.schedule.add')
             ->withPageTitle(trans('dashboard.schedule.add.title').' - '.trans('dashboard.dashboard'))
+            ->withComponentsInGroups(ComponentGroup::with('components')->get())
+            ->withComponentsOutGroups(Component::where('group_id', 0)->get())
             ->withIncidentTemplates($incidentTemplates);
     }
 
@@ -97,6 +101,7 @@ class ScheduleController extends Controller
             $incident = dispatch(new ReportMaintenanceCommand(
                 Binput::get('name'),
                 Binput::get('message'),
+                Binput::get('component_id'),
                 Binput::get('notify'),
                 Binput::get('scheduled_at')
             ));
