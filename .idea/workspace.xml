@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d11a46f5-51d5-41ac-ad88-9a897f18bf68" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php" afterPath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StatusPageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/StatusPageController.php" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/el/cachet.php" afterPath="$PROJECT_DIR$/resources/lang/el/cachet.php" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/cachet.php" afterPath="$PROJECT_DIR$/resources/lang/en/cachet.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,26 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SendIncidentEmailNotificationHandler.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IncidentPresenter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Presenters/IncidentPresenter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="154" column="64" lean-forward="false" selection-start-line="154" selection-start-column="64" selection-end-line="154" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="incident.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/partials/incident.blade.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,26 +51,6 @@
                 <marker date="1524476548481" expanded="true" signature="1251:1282" ph="..." />
                 <marker date="1524476548481" expanded="true" signature="1393:1422" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cachet.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/lang/en-UD/cachet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cachet.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/lang/es/cachet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -167,12 +130,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendMaintenanceEmailNotificationHandler.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SendMaintenanceEmailNotificationHandler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="680">
               <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusPageController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StatusPageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="84" column="107" lean-forward="false" selection-start-line="84" selection-start-column="107" selection-end-line="84" selection-end-column="107" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cachet.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/lang/el/cachet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="31" column="84" lean-forward="false" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cachet.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/lang/en/cachet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="30" column="72" lean-forward="false" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="60" lean-forward="false" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+              <folding>
+                <marker date="1524479544906" expanded="true" signature="9:24" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="36:45" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="91:118" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="187:203" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="209:226" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="252:272" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="279:345" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="459:490" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="535:553" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="574:591" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="634:677" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="674:677" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="698:735" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="750:809" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="876:894" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="949:971" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="987:1003" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="1079:1120" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="1181:1198" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="1249:1271" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="1287:1299" ph="..." />
+                <marker date="1524479544906" expanded="true" signature="1336:1373" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,6 +219,10 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Dashboard/ScheduleController.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/schedule/add.blade.php" />
         <option value="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/StatusPageController.php" />
+        <option value="$PROJECT_DIR$/resources/lang/el/cachet.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/cachet.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
   </component>
@@ -239,41 +269,6 @@
             <path>
               <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Bus" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Bus" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Bus" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Events" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Bus" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Events" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Incident" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -281,21 +276,6 @@
               <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="schedule" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -340,7 +320,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3746000" />
+    <option name="totallyTimeSpent" value="4166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -474,14 +454,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/sr/cachet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/cachet.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
@@ -709,6 +681,61 @@
         <state relative-caret-position="680">
           <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StatusPageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="84" column="107" lean-forward="false" selection-start-line="84" selection-start-column="107" selection-end-line="84" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/el/cachet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="84" lean-forward="false" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/cachet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="72" lean-forward="false" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="60" lean-forward="false" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+          <folding>
+            <marker date="1524479544906" expanded="true" signature="9:24" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="36:45" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="91:118" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="187:203" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="209:226" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="252:272" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="279:345" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="459:490" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="535:553" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="574:591" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="634:677" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="674:677" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="698:735" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="750:809" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="876:894" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="949:971" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="987:1003" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="1079:1120" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="1181:1198" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="1249:1271" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="1287:1299" ph="..." />
+            <marker date="1524479544906" expanded="true" signature="1336:1373" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
