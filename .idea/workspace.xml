@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d11a46f5-51d5-41ac-ad88-9a897f18bf68" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php" afterPath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php" />
+      <change beforePath="$PROJECT_DIR$/app/Presenters/IncidentPresenter.php" afterPath="$PROJECT_DIR$/app/Presenters/IncidentPresenter.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/incident.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/incident.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,14 +12,63 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SendIncidentEmailNotificationHandler.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SendIncidentEmailNotificationHandler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="1241">
               <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncidentPresenter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Presenters/IncidentPresenter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="154" column="64" lean-forward="false" selection-start-line="154" selection-start-column="64" selection-end-line="154" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="incident.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/partials/incident.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="163" lean-forward="false" selection-start-line="17" selection-start-column="163" selection-end-line="17" selection-end-column="163" />
+              <folding>
+                <marker date="1524476548481" expanded="true" signature="87:100" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="168:228" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="258:279" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="309:371" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="436:459" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="508:528" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="574:602" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="645:662" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="675:795" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="856:866" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="895:939" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="1026:1058" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="1064:1095" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="1213:1245" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="1251:1282" ph="..." />
+                <marker date="1524476548481" expanded="true" signature="1393:1422" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,6 +82,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php" />
+        <option value="$PROJECT_DIR$/app/Presenters/IncidentPresenter.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/incident.blade.php" />
       </list>
     </option>
   </component>
@@ -83,32 +135,20 @@
             <path>
               <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Bus" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Bus" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Bus" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Events" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cachet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Bus" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Events" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Incident" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -120,7 +160,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tophost/top.host" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -148,12 +188,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524472255390</updated>
       <workItem from="1524472256929" duration="825000" />
-      <workItem from="1524473888778" duration="36000" />
+      <workItem from="1524473888778" duration="2092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="861000" />
+    <option name="totallyTimeSpent" value="2917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -164,7 +204,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -201,9 +241,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="1241">
           <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Presenters/IncidentPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="154" column="64" lean-forward="false" selection-start-line="154" selection-start-column="64" selection-end-line="154" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/incidents.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1524473372715" expanded="true" signature="6:29" ph="..." />
+            <marker date="1524473372715" expanded="true" signature="111:149" ph="..." />
+            <marker date="1524473372715" expanded="true" signature="180:216" ph="..." />
+            <marker date="1524473372715" expanded="true" signature="358:377" ph="..." />
+            <marker date="1524473372715" expanded="true" signature="412:437" ph="..." />
+            <marker date="1524473372715" expanded="true" signature="500:517" ph="..." />
+            <marker date="1524473372715" expanded="true" signature="687:754" ph="..." />
+            <marker date="1524473372715" expanded="true" signature="937:969" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/incident.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="163" lean-forward="false" selection-start-line="17" selection-start-column="163" selection-end-line="17" selection-end-column="163" />
+          <folding>
+            <marker date="1524476548481" expanded="true" signature="87:100" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="168:228" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="258:279" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="309:371" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="436:459" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="508:528" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="574:602" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="645:662" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="675:795" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="856:866" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="895:939" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="1026:1058" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="1064:1095" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="1213:1245" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="1251:1282" ph="..." />
+            <marker date="1524476548481" expanded="true" signature="1393:1422" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

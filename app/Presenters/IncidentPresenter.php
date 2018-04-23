@@ -150,6 +150,20 @@ class IncidentPresenter extends BasePresenter implements Arrayable
         return $this->created_at_iso;
     }
 
+
+    /**
+     * Return the datetime timestamp for use within the timeline
+     *
+     * @return mixed
+     */
+    public function timestamp_datetime()
+   {
+       if ($this->wrappedObject->is_scheduled) {
+           return $this->scheduled_at_datetimepicker;
+       }
+       return $this->created_at_datetimepicker;
+   }
+
     /**
      * Present the status with an icon.
      *
