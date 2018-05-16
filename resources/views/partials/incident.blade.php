@@ -13,7 +13,7 @@
         <br>
         <small class="date">
             @if($with_link)
-                <a href="{{ route('incident', ['id' => $incident->id]) }}" class="links"><abbr class="" data-toggle="tooltip" data-placement="right" title="{{ $incident->timestamp_formatted }}">{{ $incident->timestamp_datetime }}</abbr></a>v
+                <a href="{{ route('incident', ['id' => $incident->id]) }}" class="links"><abbr class="" data-toggle="tooltip" data-placement="right" title="{{ $incident->timestamp_formatted }}">{{ $incident->timestamp_datetime }}</abbr></a>
             @else
                 <abbr class="" data-toggle="tooltip" data-placement="right" title="{{ $incident->timestamp_formatted }}">{{ $incident->timestamp_datetime }}</abbr>
             @endif
