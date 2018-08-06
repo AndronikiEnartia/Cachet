@@ -11,14 +11,16 @@
 
 namespace CachetHQ\Cachet\Http\Controllers\Api;
 
-use CachetHQ\Cachet\Bus\Commands\Component\AddComponentCommand;
+use CachetHQ\Cachet\Bus\Commands\Component\CreateComponentCommand;
 use CachetHQ\Cachet\Bus\Commands\Component\RemoveComponentCommand;
 use CachetHQ\Cachet\Bus\Commands\Component\UpdateComponentCommand;
+use CachetHQ\Cachet\Bus\Commands\Tag\ApplyTagCommand;
+use CachetHQ\Cachet\Bus\Commands\Tag\CreateTagCommand;
 use CachetHQ\Cachet\Models\Component;
-use CachetHQ\Cachet\Models\Tag;
 use GrahamCampbell\Binput\Facades\Binput;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Database\QueryException;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Request;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 
@@ -29,12 +31,16 @@ class ComponentController extends AbstractApiController
      *
      * @return \Illuminate\Http\JsonResponse
      */
-    public function getComponents()
+    public function index()
     {
         if (app(Guard::class)->check()) {
             $components = Component::query();
         } else {
             $components = Component::enabled();
+        }
+
+        if ($tags = Binput::get('tags')) {
+            $components->withAnyTags($tags);
         }
 
         $components->search(Binput::except(['sort', 'order', 'per_page']));
@@ -57,7 +63,7 @@ class ComponentController extends AbstractApiController
      *
      * @return \Illuminate\Http\JsonResponse
      */
-    public function getComponent(Component $component)
+    public function show(Component $component)
     {
         return $this->item($component);
     }
@@ -67,34 +73,34 @@ class ComponentController extends AbstractApiController
      *
      * @return \Illuminate\Http\JsonResponse
      */
-    public function postComponents()
+    public function store()
     {
         try {
-            $component = dispatch(new AddComponentCommand(
+            $component = execute(new CreateComponentCommand(
                 Binput::get('name'),
                 Binput::get('description'),
                 Binput::get('status'),
                 Binput::get('link'),
                 Binput::get('order'),
                 Binput::get('group_id'),
-                (bool) Binput::get('enabled', true)
+                (bool) Binput::get('enabled', true),
+                Binput::get('meta', null)
             ));
         } catch (QueryException $e) {
             throw new BadRequestHttpException();
         }
 
         if (Binput::has('tags')) {
+            $component->tags()->delete();
+
             // The component was added successfully, so now let's deal with the tags.
-            $tags = preg_split('/ ?, ?/', Binput::get('tags'));
-
-            // For every tag, do we need to create it?
-            $componentTags = array_map(function ($taggable) use ($component) {
-                return Tag::firstOrCreate([
-                    'name' => $taggable,
-                ])->id;
-            }, $tags);
-
-            $component->tags()->sync($componentTags);
+            Collection::make(preg_split('/ ?, ?/', $tags))->map(function ($tag) {
+                return trim($tag);
+            })->map(function ($tag) {
+                return execute(new CreateTagCommand($tag));
+            })->each(function ($tag) use ($component) {
+                execute(new ApplyTagCommand($component, $tag));
+            });
         }
 
         return $this->item($component);
@@ -107,10 +113,10 @@ class ComponentController extends AbstractApiController
      *
      * @return \Illuminate\Http\JsonResponse
      */
-    public function putComponent(Component $component)
+    public function update(Component $component)
     {
         try {
-            dispatch(new UpdateComponentCommand(
+            execute(new UpdateComponentCommand(
                 $component,
                 Binput::get('name'),
                 Binput::get('description'),
@@ -118,21 +124,25 @@ class ComponentController extends AbstractApiController
                 Binput::get('link'),
                 Binput::get('order'),
                 Binput::get('group_id'),
-                (bool) Binput::get('enabled', true)
+                (bool) Binput::get('enabled'),
+                Binput::get('meta', null),
+                (bool) Binput::get('silent', false)
             ));
         } catch (QueryException $e) {
             throw new BadRequestHttpException();
         }
 
         if (Binput::has('tags')) {
-            $tags = preg_split('/ ?, ?/', Binput::get('tags'));
+            $component->tags()->delete();
 
-            // For every tag, do we need to create it?
-            $componentTags = array_map(function ($taggable) use ($component) {
-                return Tag::firstOrCreate(['name' => $taggable])->id;
-            }, $tags);
-
-            $component->tags()->sync($componentTags);
+            // The component was added successfully, so now let's deal with the tags.
+            Collection::make(preg_split('/ ?, ?/', $tags))->map(function ($tag) {
+                return trim($tag);
+            })->map(function ($tag) {
+                return execute(new CreateTagCommand($tag));
+            })->each(function ($tag) use ($component) {
+                execute(new ApplyTagCommand($component, $tag));
+            });
         }
 
         return $this->item($component);
@@ -145,9 +155,9 @@ class ComponentController extends AbstractApiController
      *
      * @return \Illuminate\Http\JsonResponse
      */
-    public function deleteComponent(Component $component)
+    public function destroy(Component $component)
     {
-        dispatch(new RemoveComponentCommand($component));
+        execute(new RemoveComponentCommand($component));
 
         return $this->noContent();
     }

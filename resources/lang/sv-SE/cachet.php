@@ -14,6 +14,7 @@ return [
     'components' => [
         'last_updated' => 'Last updated :timestamp',
         'status'       => [
+            0 => 'Unknown',
             1 => 'Fungerar',
             2 => 'Prestandaproblem',
             3 => 'Mindre avbrott',
@@ -26,14 +27,14 @@ return [
 
     // Incidents
     'incidents' => [
-        'none'          => 'Inga händelser har rapporterats',
-        'past'          => 'Tidigare händelser',
-        'previous_week' => 'Förra veckan',
-        'next_week'     => 'Nästa vecka',
-        'scheduled'     => 'Planerat underhåll',
-        'scheduled_at'  => ', schemalagda: tidsstämpel',
-        'status'        => [
-            0 => 'Schemalagd', // TODO: Hopefully remove this.
+        'none'         => 'Inga händelser har rapporterats',
+        'past'         => 'Tidigare händelser',
+        'stickied'     => 'Stickied Incidents',
+        'scheduled'    => 'Maintenance',
+        'scheduled_at' => ', schemalagda: tidsstämpel',
+        'posted'       => 'Posted :timestamp',
+        'posted_at'    => 'Posted at :timestamp',
+        'status'       => [
             1 => 'Undersöker',
             2 => 'Identifierat',
             3 => 'Bevakar',
@@ -41,11 +42,20 @@ return [
         ],
     ],
 
+    // Schedule
+    'schedules' => [
+        'status' => [
+            0 => 'Upcoming',
+            1 => 'In Progress',
+            2 => 'Complete',
+        ],
+    ],
+
     // Service Status
     'service' => [
-        'good'  => '[0,1] Systemet fungerar |[2,Inf] Alla system fungerar',
-        'bad'   => '[0,1] Systemet har för närvarande problem|[2,Inf] Vissa system har problem',
-        'major' => '[0,1] Stora störningar på tjänsten [2,Inf] Stora störningar på vissa system',
+        'good'  => '[0,1]System operational|[2,*]All systems are operational',
+        'bad'   => '[0,1]The system is experiencing issues|[2,*]Some systems are experiencing issues',
+        'major' => '[0,1]The system is experiencing major issues|[2,*]Some systems are experiencing major issues',
     ],
 
     'api' => [
@@ -65,11 +75,14 @@ return [
 
     // Subscriber
     'subscriber' => [
-        'subscribe' => 'Prenumerera för att få de senaste uppdateringarna',
-        'button'    => 'Prenumerera',
-        'manage'    => [
+        'subscribe'           => 'Prenumerera för att få de senaste uppdateringarna',
+        'unsubscribe'         => 'Unsubscribe',
+        'button'              => 'Prenumerera',
+        'manage_subscription' => 'Manage subscription',
+        'manage'              => [
             'no_subscriptions' => 'You\'re currently subscribed to all updates.',
             'my_subscriptions' => 'You\'re currently subscribed to the following updates.',
+            'manage_at_link'   => 'Manage your subscriptions at :link',
         ],
         'email' => [
             'subscribe'          => 'Prenumerera på epost-uppdateringar.',
@@ -80,32 +93,6 @@ return [
             'unsubscribed'       => 'Din epost-prenumeration har avbrutits.',
             'failure'            => 'Något blev fel med prenumerationen.',
             'already-subscribed' => 'Kan inte skapa en prenumeration för :email eftersom den redan prenumererar.',
-            'verify'             => [
-                'text'   => "Please confirm your email subscription to :app_name status updates.\n:link",
-                'html'   => '<p>Please confirm your email subscription to :app_name status updates.</p>',
-                'button' => 'Confirm Subscription',
-            ],
-            'maintenance' => [
-                'subject' => '[Maintenance Scheduled] :name',
-            ],
-            'incident' => [
-                'subject' => '[New Incident] :status: :name',
-            ],
-            'component' => [
-                'subject'       => 'Komponentstatusuppdatering',
-                'text'          => 'Komponenten :component_name har fått en ny status. Komponenten har nu status :component_human_status.\nTack, :app_name',
-                'html'          => '<p>Komponenten :component_name har fått en ny status. Komponenten har nu status :component_human_status.</p><p>Tack, :app_name</p>',
-                'tooltip-title' => 'Prenumerera på uppdateringar för :component_name.',
-            ],
-        ],
-    ],
-
-    'users' => [
-        'email' => [
-            'invite' => [
-                'text' => "Du har blivit inbjuden till teamet för :app_names statussida, registrera dig genom att trycka på länken.\n:link\nTack, :app_name",
-                'html' => '<p>Du har blivit inbjuden till teamet :app_names statussida. Registrera dig genom att trycka på <a href=":link"> den här länken</a></p> <p>Tack, :app_name</p>',
-            ],
         ],
     ],
 
@@ -132,10 +119,20 @@ return [
         ],
     ],
 
+    // Meta descriptions
+    'meta' => [
+        'description' => [
+            'incident'  => 'Details and updates about the :name incident that occurred on :date',
+            'schedule'  => 'Details about the scheduled maintenance period :name starting :startDate',
+            'subscribe' => 'Subscribe to :app in order to receive updates of incidents and scheduled maintenance periods',
+            'overview'  => 'Stay up to date with the latest service updates from :app.',
+        ],
+    ],
+
     // Other
     'home'            => 'Home',
-    'description'     => 'Stay up to date with the latest service updates from :app.',
     'powered_by'      => 'Powered by <a href="https://cachethq.io" class="links">Cachet</a>.',
+    'timezone'        => 'Times are shown in :timezone.',
     'about_this_site' => 'Om sidan',
     'rss-feed'        => 'RSS',
     'atom-feed'       => 'Atom',
