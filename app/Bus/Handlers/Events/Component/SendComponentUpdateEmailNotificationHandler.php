@@ -60,22 +60,22 @@ class SendComponentUpdateEmailNotificationHandler
         $component = $event->component;
 
         // First notify all global subscribers.
-        $globalSubscribers = $this->subscriber->isVerified()->isGlobal()->get();
-
-        foreach ($globalSubscribers as $subscriber) {
-            $this->notify($component, $subscriber);
-        }
-
-        $notified = $globalSubscribers->pluck('id')->all();
+//        $globalSubscribers = $this->subscriber->isVerified()->isGlobal()->get();
+//
+//        foreach ($globalSubscribers as $subscriber) {
+//            $this->notify($component, $subscriber);
+//        }
+//
+//        $notified = $globalSubscribers->pluck('id')->all();
 
         // Notify the remaining component specific subscribers.
         $componentSubscribers = $this->subscriber
             ->isVerified()
             ->forComponent($component->id)
-            ->get()
-            ->reject(function ($subscriber) use ($notified) {
-                return in_array($subscriber->id, $notified);
-            });
+            ->get();
+//            ->reject(function ($subscriber) use ($notified) {
+//                return in_array($subscriber->id, $notified);
+//            });
 
         foreach ($componentSubscribers as $subscriber) {
             $this->notify($component, $subscriber);
