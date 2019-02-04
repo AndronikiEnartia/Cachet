@@ -8,7 +8,7 @@
 ({{ $component_name }})
 @endif
 
-{!! trans('cachet.subscriber.email.manage') !!} {{ $subscribe_link }}
+{!! trans('cachet.subscriber.email.manage') !!} {{ $manage_link }}
 
 {!! trans('cachet.subscriber.email.unsuscribe') !!} {{ $unsubscribe_link }}
 

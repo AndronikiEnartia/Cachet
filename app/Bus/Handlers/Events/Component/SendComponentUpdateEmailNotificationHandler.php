@@ -101,7 +101,7 @@ class SendComponentUpdateEmailNotificationHandler
         ];
 
         $mail['email'] = $subscriber->email;
-        $mail['manage_link'] = route('subscribe.manage', ['code' => $subscriber->verify_code]);
+        $mail['manage_link'] = route('subscribe.subscribe', ['code' => $subscriber->verify_code]);
 
         $this->mailer->queue([
             'html' => 'emails.components.update-html',

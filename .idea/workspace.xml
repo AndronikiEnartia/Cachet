@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d11a46f5-51d5-41ac-ad88-9a897f18bf68" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Cachet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Cachet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Bus/Handlers/Events/Component/SendComponentUpdateEmailNotificationHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bus/Handlers/Events/Component/SendComponentUpdateEmailNotificationHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/emails/components/update-html.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/components/update-html.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/emails/components/update-text.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/components/update-text.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/emails/incidents/maintenance-html.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/incidents/maintenance-html.blade.php" afterDir="false" />
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/emails/incidents/maintenance-html.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="43" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="43" />
+            <state relative-caret-position="315">
+              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#v:roundrect#0;n#!!top" expanded="true" />
               </folding>
@@ -54,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/emails/incidents/maintenance-text.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+              <caret line="9" column="63" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -63,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/emails/incidents/new-html.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -72,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/emails/incidents/new-text.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+              <caret line="10" column="63" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -81,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/emails/components/update-html.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="154" selection-start-line="9" selection-start-column="154" selection-end-line="9" selection-end-column="154" />
+              <caret line="9" column="151" selection-start-line="9" selection-start-column="139" selection-end-line="9" selection-end-column="151" />
               <folding>
                 <element signature="n#style#0;n#v:roundrect#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#center#0;n#v:roundrect#0;n#!!top" expanded="true" />
@@ -90,11 +89,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/emails/components/update-text.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="121" column="60" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="109" column="60" selection-start-line="109" selection-start-column="60" selection-end-line="109" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Component/SendComponentUpdateEmailNotificationHandler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="103" column="57" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/emails/subscribers/verify-html.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="141" lean-forward="true" selection-start-line="9" selection-start-column="141" selection-end-line="9" selection-end-column="141" />
+              <folding>
+                <element signature="n#style#0;n#v:roundrect#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,7 +146,16 @@
       <find>showManage</find>
       <find>Subscribe</find>
       <find>verify-html</find>
+      <find>$subscribe_link</find>
+      <find>subscribe_link</find>
+      <find>link</find>
+      <find>$link</find>
+      <find>manage_link</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/resources</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,13 +163,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php" />
         <option value="$PROJECT_DIR$/app/Presenters/IncidentPresenter.php" />
         <option value="$PROJECT_DIR$/app/Bus/Commands/Incident/ReportMaintenanceCommand.php" />
         <option value="$PROJECT_DIR$/app/Bus/Handlers/Commands/Incident/ReportMaintenanceCommandHandler.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Dashboard/ScheduleController.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/schedule/add.blade.php" />
-        <option value="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/StatusPageController.php" />
         <option value="$PROJECT_DIR$/resources/lang/el/cachet.php" />
         <option value="$PROJECT_DIR$/resources/lang/en/cachet.php" />
@@ -135,12 +180,15 @@
         <option value="$PROJECT_DIR$/resources/views/emails/incidents/new-text.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/components/update-html.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/components/update-text.blade.php" />
+        <option value="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php" />
+        <option value="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php" />
+        <option value="$PROJECT_DIR$/app/Bus/Handlers/Events/Component/SendComponentUpdateEmailNotificationHandler.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1685" />
-    <option name="y" value="230" />
+    <option name="x" value="-97" />
+    <option name="y" value="171" />
     <option name="width" value="1524" />
     <option name="height" value="832" />
   </component>
@@ -174,38 +222,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="emails" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cachet" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="emails" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cachet" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="emails" type="462c0819:PsiDirectoryNode" />
-              <item name="incidents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cachet" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="emails" type="462c0819:PsiDirectoryNode" />
-              <item name="subscribers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cachet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cachet" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="emails" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,15 +266,15 @@
       <workItem from="1525855368653" duration="84000" />
       <workItem from="1526468094775" duration="1235000" />
       <workItem from="1549288149189" duration="307000" />
-      <workItem from="1549288532913" duration="336000" />
+      <workItem from="1549288532913" duration="1999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10666000" />
+    <option name="totallyTimeSpent" value="12329000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20811099" />
@@ -313,13 +329,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/es/cachet.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Presenters/IncidentPresenter.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -435,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/el/cachet.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -500,13 +502,10 @@
     <entry file="file://$PROJECT_DIR$/resources/views/emails/users/invite-html.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/emails/subscribers/verify-html.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/emails/incidents/maintenance-html.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="43" />
+        <state relative-caret-position="315">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#v:roundrect#0;n#!!top" expanded="true" />
           </folding>
@@ -516,28 +515,28 @@
     <entry file="file://$PROJECT_DIR$/resources/views/emails/incidents/maintenance-text.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/emails/incidents/new-html.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/emails/incidents/new-text.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/emails/components/update-html.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="154" selection-start-line="9" selection-start-column="154" selection-end-line="9" selection-end-column="154" />
+          <caret line="9" column="151" selection-start-line="9" selection-start-column="139" selection-end-line="9" selection-end-column="151" />
           <folding>
             <element signature="n#style#0;n#v:roundrect#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#center#0;n#v:roundrect#0;n#!!top" expanded="true" />
@@ -545,10 +544,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/subscribers/verify-html.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="141" lean-forward="true" selection-start-line="9" selection-start-column="141" selection-end-line="9" selection-end-column="141" />
+          <folding>
+            <element signature="n#style#0;n#v:roundrect#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/emails/components/update-text.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="121" column="60" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="109" column="60" selection-start-line="109" selection-start-column="60" selection-end-line="109" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Component/SendComponentUpdateEmailNotificationHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="103" column="57" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
         </state>
       </provider>
     </entry>

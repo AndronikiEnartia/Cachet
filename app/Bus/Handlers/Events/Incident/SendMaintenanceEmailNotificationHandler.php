@@ -107,7 +107,7 @@ class SendMaintenanceEmailNotificationHandler
             'html_content'     => $incident->formattedMessage,
             'text_content'     => $incident->message,
             'token'            => $subscriber->token,
-            'manage_link'      => route('subscribe.manage', ['code' => $subscriber->verify_code]),
+            'manage_link'      => route('subscribe.subscribe', ['code' => $subscriber->verify_code]),
             'unsubscribe_link' => route('subscribe.unsubscribe', ['code' => $subscriber->verify_code]),
         ];
 
