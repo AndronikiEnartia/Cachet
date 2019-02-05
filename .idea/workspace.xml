@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d11a46f5-51d5-41ac-ad88-9a897f18bf68" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Bus/Handlers/Events/Component/SendComponentUpdateEmailNotificationHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bus/Handlers/Events/Component/SendComponentUpdateEmailNotificationHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/components/update-html.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/components/update-html.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/components/update-text.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/components/update-text.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/incidents/maintenance-html.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/incidents/maintenance-html.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/incidents/maintenance-text.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/incidents/maintenance-text.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/incidents/new-html.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/incidents/new-html.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/incidents/new-text.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/incidents/new-text.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="d11a46f5-51d5-41ac-ad88-9a897f18bf68" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +31,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/emails/incidents/maintenance-html.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-              <folding>
-                <element signature="n#style#0;n#v:roundrect#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -81,10 +68,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="151" selection-start-line="9" selection-start-column="139" selection-end-line="9" selection-end-column="151" />
-              <folding>
-                <element signature="n#style#0;n#v:roundrect#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#center#0;n#v:roundrect#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -101,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
+            <state relative-caret-position="1650">
               <caret line="121" column="60" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="60" />
             </state>
           </provider>
@@ -110,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
+            <state relative-caret-position="1470">
               <caret line="109" column="60" selection-start-line="109" selection-start-column="60" selection-end-line="109" selection-end-column="60" />
             </state>
           </provider>
@@ -119,7 +102,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Component/SendComponentUpdateEmailNotificationHandler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
+            <state relative-caret-position="636">
               <caret line="103" column="57" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
             </state>
           </provider>
@@ -130,9 +113,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="141" lean-forward="true" selection-start-line="9" selection-start-column="141" selection-end-line="9" selection-end-column="141" />
-              <folding>
-                <element signature="n#style#0;n#v:roundrect#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -187,17 +167,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-97" />
-    <option name="y" value="171" />
-    <option name="width" value="1524" />
-    <option name="height" value="832" />
+    <option name="x" value="1920" />
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,11 +206,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../top.host/top.host" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -267,17 +247,17 @@
       <workItem from="1526468094775" duration="1235000" />
       <workItem from="1549288149189" duration="307000" />
       <workItem from="1549288532913" duration="1999000" />
+      <workItem from="1549294674334" duration="3134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12329000" />
+    <option name="totallyTimeSpent" value="15463000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="25" width="1920" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20811099" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21024546" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -505,10 +485,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/emails/incidents/maintenance-html.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#v:roundrect#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -537,20 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="151" selection-start-line="9" selection-start-column="139" selection-end-line="9" selection-end-column="151" />
-          <folding>
-            <element signature="n#style#0;n#v:roundrect#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#center#0;n#v:roundrect#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/emails/subscribers/verify-html.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="141" lean-forward="true" selection-start-line="9" selection-start-column="141" selection-end-line="9" selection-end-column="141" />
-          <folding>
-            <element signature="n#style#0;n#v:roundrect#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -563,21 +526,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendIncidentEmailNotificationHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
+        <state relative-caret-position="1650">
           <caret line="121" column="60" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Incident/SendMaintenanceEmailNotificationHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
+        <state relative-caret-position="1470">
           <caret line="109" column="60" selection-start-line="109" selection-start-column="60" selection-end-line="109" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/subscribers/verify-html.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="141" lean-forward="true" selection-start-line="9" selection-start-column="141" selection-end-line="9" selection-end-column="141" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Bus/Handlers/Events/Component/SendComponentUpdateEmailNotificationHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
+        <state relative-caret-position="636">
           <caret line="103" column="57" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
         </state>
       </provider>

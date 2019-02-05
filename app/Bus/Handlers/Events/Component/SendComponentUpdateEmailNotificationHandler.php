@@ -67,15 +67,15 @@ class SendComponentUpdateEmailNotificationHandler
 //        }
 //
 //        $notified = $globalSubscribers->pluck('id')->all();
-
+        $notified = 0;
         // Notify the remaining component specific subscribers.
         $componentSubscribers = $this->subscriber
             ->isVerified()
             ->forComponent($component->id)
             ->get();
-//            ->reject(function ($subscriber) use ($notified) {
-//                return in_array($subscriber->id, $notified);
-//            });
+           ->reject(function ($subscriber) use ($notified) {
+               return in_array($subscriber->id, $notified);
+           });
 
         foreach ($componentSubscribers as $subscriber) {
             $this->notify($component, $subscriber);
